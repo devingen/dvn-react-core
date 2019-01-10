@@ -1,0 +1,12 @@
+language : node_js
+node_js :
+ - stable
+install:
+ - npm install
+ - npm install react react-dom
+script:
+ - npm run lint
+ - npm run test-ci
+
+# Send coverage data to Coveralls
+after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
