@@ -1,6 +1,6 @@
 {
   "name": "dvn-react-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Devingen form implementation core.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -79,8 +79,7 @@
     "tslint-react": "^3.6.0",
     "typescript": "^3.2.2"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
