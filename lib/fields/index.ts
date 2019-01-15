@@ -5,6 +5,6 @@ export { SectionHeader } from './SectionHeader';
 export { SingleChoice } from './SingleChoice';
 export { SubForm } from './SubForm';
 export { BaseInputProps } from './IBaseInput';
-export { registerField } from './FieldGenerator';
+export { generateField, registerField } from './FieldGenerator';
 export { BaseField, InputGenerator } from './BaseField';
 export { TextInput, TypeTnputType } from './TextInput';

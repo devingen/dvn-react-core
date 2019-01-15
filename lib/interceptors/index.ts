@@ -1,4 +1,4 @@
-export { ConcealerConditional } from './ConcealerGenericRule';
+export { ConcealerConditional, And, Equal, NotEqual, Or, Rule } from './ConcealerGenericRule';
 export { InterceptorHandlerResponse } from './InterceptorHandlerResponse';
 export { ModifierLowercaseConverter } from './ModifierLowercaseConverter';
 export { ModifierUppercaseConverter } from './ModifierUppercaseConverter';
