@@ -4,9 +4,11 @@ export {
   FormProps,
   generateState,
   handleExtraButtonClick,
-  Form,
+  DevingenForm,
   SubmitCallbackResponse,
   SubmitCallback,
-  getFirstError
-} from './Form';
+  getFirstError,
+  Values,
+  InterceptorBundle
+} from './DevingenForm';
 export { FormContext } from './FormContext';

@@ -19,7 +19,7 @@ import {
   generateStateOnFieldChange,
   handleExtraButtonClick,
   SubmitCallbackResponse
-} from './Form';
+} from './DevingenForm';
 import { FormContext } from './FormContext';
 
 configure({ adapter: new Adapter() });

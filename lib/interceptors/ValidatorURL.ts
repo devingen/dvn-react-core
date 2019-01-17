@@ -1,6 +1,5 @@
-import { BaseField } from '../fields/BaseField';
-import { Values } from '../form/Form';
-import { FormContext } from '../form/FormContext';
+import { BaseField } from '../fields';
+import { FormContext, Values } from '../form';
 import { InterceptorConfig } from './InterceptorConfig';
 import { registerInterceptor } from './InterceptorGenerator';
 import { InterceptorHandler } from './InterceptorHandler';

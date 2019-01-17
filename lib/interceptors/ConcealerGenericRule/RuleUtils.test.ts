@@ -76,8 +76,8 @@ describe('RuleUtils', () => {
       };
 
       const data = {
-        university: 'AÜ',
         class: 4,
+        university: 'AÜ',
       };
       expect(doesSatisfyRule(rule, data)).toBeTruthy();
     });
@@ -101,8 +101,8 @@ describe('RuleUtils', () => {
       };
 
       const data = {
-        university: 'AÜ',
         class: 4,
+        university: 'AÜ',
       };
       expect(doesSatisfyRule(rule, data)).toBeTruthy();
     });
@@ -181,8 +181,8 @@ describe('RuleUtils', () => {
       };
 
       const data = {
-        university: 'AÜ',
         class: 4,
+        university: 'AÜ',
       };
       expect(doesSatisfyRule(rule, data)).toBeTruthy();
     });
@@ -206,8 +206,8 @@ describe('RuleUtils', () => {
       };
 
       const data = {
-        university: 'AÜ',
         class: 4,
+        university: 'AÜ',
       };
       expect(doesSatisfyRule(rule, data)).toBeFalsy();
     });

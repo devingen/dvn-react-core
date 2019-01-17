@@ -1,5 +1,5 @@
 export {
-  Form,
+  DevingenForm,
   FormContext,
   SubmitCallbackResponse,
   SubmitCallback,

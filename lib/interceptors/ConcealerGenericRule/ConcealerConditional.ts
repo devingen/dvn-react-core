@@ -1,10 +1,9 @@
-import { BaseField } from '../../fields/BaseField';
-import { Values } from '../../form/Form';
-import { FormContext } from '../../form/FormContext';
+import { BaseField } from '../../fields';
+import { FormContext, Values } from '../../form';
 import { InterceptorConfig } from '../InterceptorConfig';
 import { registerInterceptor } from '../InterceptorGenerator';
 import { VisibilityHandler } from '../VisibilityHandler';
-import { Rule } from './Rules/Rule';
+import { Rule } from './Rules';
 import { doesSatisfyRule } from './RuleUtils';
 
 export class ConcealerConditional extends InterceptorConfig {

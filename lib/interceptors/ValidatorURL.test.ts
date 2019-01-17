@@ -1,5 +1,5 @@
-import { BaseField } from '../fields/BaseField';
-import { FormContext } from '../form/FormContext';
+import { BaseField } from '../fields';
+import { FormContext } from '../form';
 import { ValidatorURLHandler } from './ValidatorURL';
 
 describe('ValidatorURL', () => {

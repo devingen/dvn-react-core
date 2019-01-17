@@ -1,4 +1,4 @@
-import { Rule } from './Rules/Rule';
+import { Rule } from './Rules';
 
 export function doesSatisfyRule(rule: Rule, data: object = {}): boolean {
 
