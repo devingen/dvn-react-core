@@ -27,4 +27,10 @@ describe('ValidatorEmail', () => {
       new ValidatorNotEmptyHandler().run(new FormContext(), {}, { title: 'Tags' } as BaseField, [])
     ).toEqual({ 'error': 'Tags cannot be empty.', 'value': [] });
   });
+
+  it('should not return error if the value is "false" because "false" itself is a valid value', () => {
+    expect(
+      new ValidatorNotEmptyHandler().run(new FormContext(), {}, { title: 'Title' } as BaseField, false)
+    ).toEqual({ 'error': undefined, 'value': false });
+  });
 });
