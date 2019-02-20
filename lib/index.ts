@@ -1,6 +1,7 @@
 export {
   DevingenForm,
   FormContext,
+  Language,
   SubmitCallbackResponse,
   SubmitCallback,
   getFirstError,
@@ -15,6 +16,7 @@ export {
   DateInput,
   MultipleChoice,
   NumberInput,
+  RatingStars,
   SectionHeader,
   SingleChoice,
   SubForm,

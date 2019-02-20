@@ -11,4 +11,4 @@ export {
   Values,
   InterceptorBundle
 } from './DevingenForm';
-export { FormContext } from './FormContext';
+export { FormContext, Language } from './FormContext';
